@@ -3,7 +3,16 @@
     background-repeat: no-repeat;
     background-position-x: center;
       background-size: 100%; 
-     line-height: 1.5;   
+    
+   
 
 }  
+ .modiFontSize{
+
+   font-size: 9px;
+  /* padding-left: 100px;
+  padding-top: 8px;  */
+  padding: 0.5rem 0.3rem;
+ 
+} 
 
