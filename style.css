@@ -13,9 +13,24 @@
  
 .container{
   font-size: 14px;
+  
     /* display: block;
      padding: 0.5rem 1rem; 
    padding: 0.5rem 1rem; */
  
 } 
 
+.g-light {
+  background-color: #5aa6f100!important;
+}
+
+
+element.style {
+}
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #e8ebef;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #dfe4e9;
+    
+}
