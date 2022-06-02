@@ -1,19 +1,21 @@
   .headEstutura{
-    background-image: url("./proz01.jpg");
+     background-image: url("./proz01.jpg"); 
     background-repeat: no-repeat;
-    background-position-x: center;
+    background-position: center;
       background-size: 100%; 
-    
+     background-size: cover;  
+   max-height: 400px;
    
 
 }  
 
 
+ 
+.container{
+  font-size: 14px;
+    /* display: block;
+     padding: 0.5rem 1rem; 
+   padding: 0.5rem 1rem; */
+ 
+} 
 
-.nav-link {
-  font-size: 10px;
-    display: block;
-    /* padding: 0.5rem 0.3rem; */
-    padding: 0.5rem 1rem;
-  padding-left: 7.1rem;
-}
