@@ -1,36 +1,63 @@
-  .headEstutura{
-     background-image: url("./proz01.jpg"); 
-    background-repeat: no-repeat;
-    background-position: center;
-      background-size: 100%; 
-     background-size: cover;  
-   max-height: 400px;
-   
+*{
+  padding: 0;
+  margin: 0;
+}
+.headEstutura {
+  background-image: url("./proz01.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100%;
+  background-size: cover;
+  max-height: 400px;
+  border-radius: 5px;
+
+
+
+}
+
+
+
+ .container{
+  font-size: 11px;
+text-shadow: 0px 0px 0px black;
+/* justify-content: center;
+align-items: center; */
+
 
 }  
 
-
- 
-.container{
-  font-size: 14px;
-  
-    /* display: block;
-     padding: 0.5rem 1rem; 
-   padding: 0.5rem 1rem; */
- 
-} 
-
 .g-light {
-  background-color: #5aa6f100!important;
+  background-color: #5aa6f100 !important;
 }
 
 
-element.style {
+element.style {}
+
+.navbar-light .navbar-nav .active>.nav-link,
+.navbar-light .navbar-nav .nav-link.active,
+.navbar-light .navbar-nav .nav-link.show,
+.navbar-light .navbar-nav .show>.nav-link {
+  color: #e8ebef;
 }
-.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
-    color: #e8ebef;
-}
+
 .navbar-light .navbar-nav .nav-link {
-    color: #dfe4e9;
-    
+  color: #dfe4e9;
+
+}
+
+
+@media screen and (max-width: 992px) {
+  /* .container {
+    font-size: 5px;
+    text-shadow: 0px 0px 0px black;
+  
+  } */
+}
+
+
+@media screen and (max-width: 500px) {
+  .container {
+    font-size: 12px;
+    padding-left: 0px;
+  }
 }
