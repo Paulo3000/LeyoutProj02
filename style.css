@@ -1,6 +1,10 @@
 li {
-  padding-left: 5rem;
+  padding-left: 4rem;
+  
+ 
 }
+
+
 section {
 
   background-size: cover;
@@ -32,15 +36,17 @@ element.style {}
 }
 
 nav {
-  margin-top: 70px;
-  font-size: 20px;
-
+  margin-top: 8rem;
+  font-size: 12px;
+margin-right: 10rem;
 
 }
+
 @media screen and (max-width: 500px) {
   nav {
-      font-size: 15px;
+      font-size: 10px;
       margin-top: 10px;
+     
   }
 
   section {
