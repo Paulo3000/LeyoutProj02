@@ -1,35 +1,21 @@
-*{
-  padding: 0;
-  margin: 0;
+li {
+  padding-left: 5rem;
 }
-.headEstutura {
-  background-image: url("./proz01.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: 100%;
+section {
+
   background-size: cover;
-  max-height: 400px;
+  height: 500px;
+  background: url(murala1.jpg) no-repeat;
+  background-size: 97%;
+  align-items: center;
+  max-height: 900px;
   border-radius: 5px;
-
-
+  margin-left: 2rem;
 
 }
-
-
-
- .headImage{
-  font-size: 14px;
-text-shadow: 0px 0px 0px black;
-/* justify-content: center;
-align-items: center; */
-
-
-}  
-
 .g-light {
   background-color: #5aa6f100 !important;
 }
-
 
 element.style {}
 
@@ -45,19 +31,23 @@ element.style {}
 
 }
 
+nav {
+  margin-top: 70px;
+  font-size: 20px;
 
-@media screen and (max-width: 992px) {
-  /* .container {
-    font-size: 5px;
-    text-shadow: 0px 0px 0px black;
-  
-  } */
+
 }
-
-
 @media screen and (max-width: 500px) {
-  .container {
-    font-size: 10px;
-    padding-left: 0px;
+  nav {
+      font-size: 15px;
+      margin-top: 10px;
+  }
+
+  section {
+      margin-left: auto;
+  }
+
+  li {
+      padding-left: 0rem;
   }
 }
