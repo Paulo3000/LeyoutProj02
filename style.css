@@ -42,7 +42,7 @@ margin-right: 10rem;
 
 }
 
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 800px) {
   nav {
       font-size: 10px;
       margin-top: 10px;
