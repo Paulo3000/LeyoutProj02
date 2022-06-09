@@ -59,10 +59,12 @@ form{
   margin-left: 1rem;
 }
 .ajusteInputAreaEmail{
-  width: 290px;
+  width: 430px;
 }
 .ajusteInputAreaPassowd{
   width: 150px;
+  margin-top: -78px;
+  margin-left: 28rem;
 }
 
 @media screen and (max-width: 500px) {
