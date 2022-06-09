@@ -3,7 +3,9 @@ li {
   
  
 }
-
+.espacamento{
+ margin-top: 8rem;
+}
 
 section {
 
@@ -15,7 +17,11 @@ section {
   max-height: 900px;
   border-radius: 5px;
   margin-left: 2rem;
+  margin-top: -11rem;
 
+}
+form{
+  width: 40%;
 }
 .g-light {
   background-color: #5aa6f100 !important;
@@ -36,24 +42,62 @@ element.style {}
 }
 
 nav {
-  margin-top: 8rem;
-  font-size: 12px;
-margin-right: 10rem;
+  margin-top: 7rem;
+  font-size: 11px;
+   margin-right: 8rem;
+
 
 }
+.ClienteTexto{
+margin-top: 3rem;
+}
+.card{
+  margin-left: 9rem;
+}
+form{
+  margin-top: 5rem;
+  margin-left: 1rem;
+}
+.ajusteInputAreaEmail{
+  width: 290px;
+}
+.ajusteInputAreaPassowd{
+  width: 150px;
+}
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 500px) {
   nav {
       font-size: 10px;
-      margin-top: 10px;
+      margin-top: -8rem;
+      background-color: rgba(49, 50, 63, 0.89);
+      width: 100%;  
      
+         
   }
 
   section {
       margin-left: auto;
+      margin-top: 0rem;
+      width: 110%; 
+   
   }
+ 
+ .card{
+  
+ margin-top: 3rem; 
+margin-left: 3rem;
 
+ }
   li {
       padding-left: 0rem;
   }
+  .ClienteTexto{
+    margin-top: -9rem;
+  
+  }
+  h3{
+    font-size: 16px;
+    color: rgb(0, 17, 255);
+  }
+
 }
